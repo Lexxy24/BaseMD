@@ -1,0 +1,23 @@
+{
+  "name": "BASEMD",
+  "version": "1.0.0",
+  "description": "Base Bot By Lexxy Official",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Lexxy Official",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "colors": "^1.4.0",
+    "chalk": "^4.1.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7",
+    "moment-timezone": "^0.5.34",
+    "qrcode": "^1.5.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
