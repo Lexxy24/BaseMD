@@ -12,7 +12,7 @@ const { BufferJSON, WA_DEFAULT_EPHEMERAL, proto, prepareWAMessageMedia, areJidsS
 const { downloadContentFromMessage, generateWAMessage, generateWAMessageFromContent, MessageType, buttonsMessage } = require("@adiwajshing/baileys")
 const { exec, spawn } = require("child_process");
 const { color, bgcolor, pickRandom, randomNomor } = require('./function/console.js')
-const { getRandom, getGroupAdmins, runtime, sleep, makeid, fetchJson, getBuffer } = require("./function/myfunc");
+const { isUrl, getRandom, getGroupAdmins, runtime, sleep, makeid, fetchJson, getBuffer } = require("./function/myfunc");
 const { addResponList, delResponList, isAlreadyResponList, isAlreadyResponListGroup, sendResponList, updateResponList, getDataResponList } = require('./function/addlist');
 const { jadibot, listJadibot } = require('./function/jadibot')
 
